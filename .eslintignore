@@ -1,0 +1,39 @@
+# Node modules and dependencies
+node_modules/
+
+# Compiled and build output
+dist/
+build/
+out/
+
+# TypeScript cache and logs
+*.tsbuildinfo
+*.log
+
+# Environment and configuration files
+.env
+.env.*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Temporary or system files
+.DS_Store
+*.tmp
+
+# Test coverage and reports
+coverage/
+reports/
+
+# IDE and editor-specific folders
+.vscode/
+.idea/
+
+# Optional: ignore public assets or generated docs (if you have them)
+public/
+docs/
+Dockerfile
+Dockerfile.dev
+.dockerignore
+.npmrc
+Jenkinsfile
